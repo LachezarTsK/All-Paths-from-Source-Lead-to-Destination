@@ -6,7 +6,7 @@ import java.util.List;
 public class Solution {
 
     private List<Integer>[] graph;
-    private enum StateOfNode { NotVisited, OnCallStack, Visited };
+    private static enum StateOfNode { NotVisited, OnCallStack, Visited };
 
     public boolean leadsToDestination(int numberOfNodes, int[][] edges, int source, int destination) {
 
